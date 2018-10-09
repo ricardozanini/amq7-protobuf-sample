@@ -1,0 +1,15 @@
+target
+.settings
+.project
+.classpath
+*.key
+.idea
+*.imlurl
+url
+.vagrant
+*.retry
+*.jar
+.DS_Store
+*.log
+results-output*
+*.csv

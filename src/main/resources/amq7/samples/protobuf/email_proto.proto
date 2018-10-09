@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package amq7.samples.protobuf;
+
+import "google/protobuf/timestamp.proto";
+
+option java_package = "amq7.samples.protobuf";
+
+message Email {
+	string body = 1;
+	string to = 2;
+	string subject = 3;
+	google.protobuf.Timestamp dateTime = 4;
+	string cc = 6;
+	string cco = 5;
+}
