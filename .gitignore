@@ -13,3 +13,4 @@ url
 *.log
 results-output*
 *.csv
+*.iml
